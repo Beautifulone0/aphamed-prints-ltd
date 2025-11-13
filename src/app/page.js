@@ -46,8 +46,7 @@ export default function Home() {
   //   return () => clearInterval(interval);
   // }, []);
   return (
-    <main>
-      {/* Hero Section */}
+    <main>ro Section */}
       <div className="HeroSection">
         {/*Hero Text */}
         <motion.div
@@ -66,7 +65,8 @@ export default function Home() {
           >
             WE DON’T JUST PRINT, <br /> WE PRINT EXPERIENCE <br /> THAT LAST
           </motion.h1>
-          <motion.p
+ 
+      {/* He         <motion.p
             className="text-sm lg:text-xl text-(--Primary-color) text-center font-light leading-5 m-5 lg:m-0 lg:leading-10"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
